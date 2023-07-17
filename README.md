@@ -1,6 +1,6 @@
 ## Expressions
 
-### [Parser](src/expression/parser) and [evaluator](src/expression/operation/evaluator) expressions on Java with Generics and [Exceptions](src/expression/exceptions).
+### [Parser](src/expression/parser) and [evaluator](src/expression/operation/evaluator) expressions on Java with Generics and [Exceptions](src/expression/exceptions) based on course by [Georgiy Korneev](https://www.kgeorgiy.info/).
 
 Realized [constants](src/expression/operation/Const.java), [variables](src/expression/operation/Variable.java), [add](src/expression/operation/Add.java),
 [subtract](src/expression/operation/Subtract.java), [multiply](src/expression/operation/Multiply.java), [divide](src/expression/operation/Divide.java),
