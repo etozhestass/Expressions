@@ -1,7 +1,5 @@
 package expression.operation.evaluator;
 
-import expression.exceptions.NoCorrectType;
-
 public interface Evaluator<T> {
     T add(T left, T right);
     T subtract(T left, T right);
