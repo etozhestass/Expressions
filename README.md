@@ -93,6 +93,7 @@ int x = 1;
 
 System.out.println(expression.toMiniString() + " = " + expression.evaluate(x, evaluator)); // x * (x - 2) * x + 1 = 0 
 ```
+Time Complexity: ```O(n)```
 ### [Parser](src/expression/parser) also catches errors: overflow, no correct bracket sequences, divide by zero and etc:
 ```java
 parser.parse("x + 2)"); // returns BracketSequencesException error
